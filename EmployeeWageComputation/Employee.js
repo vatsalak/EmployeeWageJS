@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Function to check employee attendance
 function checkAttendance() {
     // Generate a random number between 0 and 1
@@ -14,3 +15,14 @@ function checkAttendance() {
   // Call the function to check attendance
   checkAttendance();
   
+
+// Define the constants
+const wagePerHour = 20;
+const fullDayHours = 8;
+
+// Calculate the daily wage
+const dailyWage = wagePerHour * fullDayHours;
+
+// Display the result
+console.log("Daily Employee Wage: $" + dailyWage);
+>>>>>>> UC2-Branch
